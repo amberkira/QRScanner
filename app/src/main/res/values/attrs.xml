@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaskView">
+
+        //扫描动画方向
+        <attr name="ScanOritation" format="enum">
+            <enum name="vertical" value="0"/>
+            <enum name="horizontal" value="1"/>
+        </attr>
+        //扫描区顶部margin 水平方向固定为居中，则不需要额外调整
+        <attr name="ScanMarginTop" format="dimension|reference"/>
+        //扫描区间宽度
+        <attr name="ScanWidth" format="dimension|reference"/>
+        //扫描区间长度
+        <attr name="ScanHeight" format="dimension|reference"/>
+        //扫描边框粗细
+        <attr name="ScanBoarderSize" format="dimension|reference"/>
+        //扫描边框颜色
+        <attr name="ScanBoarderColor" format="color|reference"/>
+        //扫描角大小
+        <attr name="ScanCornerSize" format="dimension|reference"/>
+        //扫描角宽度
+        <attr name="ScanCornerWidth" format="dimension|reference"/>
+        //扫描角颜色
+        <attr name="ScanCornerColor" format="color|reference"/>
+        //遮罩arbg
+        <attr name="MaskARBG" format="color|reference"/>
+        //下方提示
+        <attr name="HintText" format="string|reference"/>
+        //字体大小
+        <attr name="HintSize" format="dimension|reference"/>
+    </declare-styleable>
+</resources>
